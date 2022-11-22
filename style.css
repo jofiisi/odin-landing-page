@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-blue, .bottom-blue{
+    background-color: #1f2937;
+}
+
+.grey{
+    background-color: #E5E7EB;
+
+}
+
+
