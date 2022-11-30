@@ -5,13 +5,32 @@ body{
     flex-direction: column;
 }
 
+.element{
+
+}
+
 .top-blue, .bottom-blue{
     background-color: #1f2937;
+    flex: 1;
 }
 
 .grey{
     background-color: #E5E7EB;
-
+    flex: 1;
 }
 
+.top-white, .bottom-white{
+    flex: 1;
+}
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
