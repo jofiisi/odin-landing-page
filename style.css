@@ -3,15 +3,54 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
 }
 
-.element{
-
+.top-blue, .bottom-blue, .grey, .top-white, .bottom-white{
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .top-blue, .bottom-blue{
     background-color: #1f2937;
     flex: 1;
+}
+
+.top-blue{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    padding: 20px 0px;
+}
+
+.header-left{
+    font-size: 24px;
+    color: #F9FAFA;
+}
+
+main{
+    display: flex;
+}
+
+h1{
+    font-size: 48px;
+    color: #F9FAFA;
+}
+
+.mainSubText{
+    font-size: 18px;
+    color: #F9FAFA;
+}
+
+.orGate_europ{
+    align-self: center;
+}
+
+.sign-up{
+    display: block;
 }
 
 .grey{
