@@ -1,0 +1,1 @@
+This i a project relaed to the Odin Project, which is an online course which allows one to lear the basic of WebDev. So please have a look at my site :)
