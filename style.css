@@ -4,6 +4,8 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', 'Times New Roman', Times, serif;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
 }
 
 li{
@@ -11,8 +13,9 @@ li{
 }
 
 .top-blue, .bottom-blue, .grey, .top-white, .bottom-white{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    flex: 1 0 auto;
 }
 
 .top-blue, .bottom-blue{
@@ -83,7 +86,6 @@ h1{
 
 .grey{
     background-color: #E5E7EB;
-    flex: 1;
 }
 
 h2{
@@ -118,6 +120,63 @@ h2{
 
 .top-white, .bottom-white{
     flex: 1;
+}
+
+.grey{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote{
+    width: 800px;
+    padding: 80px 0px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.credit{
+    text-align: end;
+    margin-right: 30px;
+    font-weight: bolder;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.action_container{
+    background-color: #3882f6;
+    border-radius: 5px;
+    margin: 80px 0px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    color: #F9FAFA;
+}
+
+h3{
+    margin: 10px 0px;
+}
+
+.sign-up2{
+    color: #F9FAFA;
+    border-color: #F9FAFA;
+    background-color: #3882f6;
+    padding: 5px 30px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid;
+    border-radius: 6px;
+}
+
+.bottom-blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAFA;
+    padding: 40px 0px;
 }
 
 .header{
